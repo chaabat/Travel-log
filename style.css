@@ -156,7 +156,7 @@ button{
 
 }
 footer {
-    background: url(/photos/footer.png)no-repeat;
+    background: url(photos/footer.png)no-repeat;
     
     background-size: cover;
     padding: 50px;
@@ -201,7 +201,7 @@ footer {
     margin-bottom: 30px;
     padding: 10px 10px 15px 10px;
     border-radius: 5px;
-    background: url(/photos/contactbg1.png);
+    background: url(photos/contactbg1.png);
     background-size: cover;
     
 }
@@ -254,7 +254,7 @@ input[type="submit"] {
    
     color: #434343;
     text-align: center;
-    background: url(/photos/guidebg.png)no-repeat;
+    background: url(photos/guidebg.png)no-repeat;
     background-size: cover;
     
   }
@@ -424,13 +424,13 @@ input[type="submit"] {
 }
 
 .flight-background{
-    background: url(/photos/9.png)no-repeat;
+    background: url(photos/9.png)no-repeat;
     background-size: 100%;
     padding: 20px;
 }
 
 .homeb{
-    background: url(/photos/homebg1.png);
+    background: url(photos/homebg1.png);
     background-size: cover;
 }
 
