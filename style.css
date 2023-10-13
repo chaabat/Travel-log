@@ -33,9 +33,8 @@ header{
     display: inline-block;
     padding: 0 30px;
 }
-.links li a{
-    transition: all 0.3s ease 0s;
-}
+
+
 .links li a:hover{
     color: black;
 }
@@ -45,7 +44,7 @@ button{
     border:solid;
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+   
    
 }
 
@@ -55,12 +54,7 @@ button{
     margin: 0 42px;
 
 }
-.about .container{
-    display: flex;
-    flex-direction: row;
-    margin: 0 42px;
-   
-}
+
 .container-text{
     width:50%;
     height: 30%;
@@ -75,33 +69,16 @@ button{
     font-weight: 500;
     
 }
-.about .container-text h2{
-    font-size: 60px;
-    font-weight: 400;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    text-align: center;
-    
-}
-.contact_form .container-text h2{
-    font-size: 60px;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-}
+
+
+
 
 .container-text p{
     font-weight: 400;
     margin-top: 20px;
     margin-right: 20px;
 }
-.about .container-text p{
-    font-weight: 400;
-    margin-top: 20px;
-    margin-right: 20px;
-    text-align: center;
-}
+
 
 .container img{
     width: 45%;
@@ -110,36 +87,13 @@ button{
     margin-top: 30px;
     
 }
-.contact_form .container img{
-    width: 45%;
-    height: 45%;
-    margin-right: 90px;
-    margin-top: 60px;
-    border-radius: 10px;
-    border: 3px solid black;
-
-}
-
-
-.about .container img{
-    width: 45%;
-    height: 45%;
-    margin-right: 90px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    border: 5px solid black;
-}
-
-
-
 
 .reserve-button{
     background-color: black;
     color: white;
     border: 2px solid black;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    
     margin-bottom: 100px;
     margin-top: 30px;
     padding: 10px;
@@ -155,46 +109,59 @@ button{
     color: black;
 
 }
-footer {
-    background: url(photos/footer.png)no-repeat;
-    
-    background-size: cover;
-    padding: 50px;
-  
-}
-.link-container{
+/**************************About**************************************************/
+.about .container{
     display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
-
-}
-.link-container div{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-
-}
-.copy{
-    text-align: center;
-    padding-bottom: 20px;
-    margin-top: 30px;
+    flex-direction: row;
+    margin: 0 42px;
    
 }
-.copy h3{
-    font-weight: 100;
-}
-.link-container a{
-    margin-bottom: 10px;
-    color: black;
 
-}
-.link-container h2{
+.about .container-text h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 70px;
     margin-bottom: 30px;
+    text-align: center;
+    
 }
-.travelog{
-    margin-bottom: 70px;
+.about .container-text p{
+    font-weight: 400;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
 
+.about .container img{
+    width: 45%;
+    height: 45%;
+    margin-right: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+
+
+
+/************************************Conatct*****************************************/
+.contact_form .container-text h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contact_form .container img{
+    width: 45%;
+    height: 45%;
+    margin-right: 90px;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
 .contact_form {
     
     margin: 0 auto;
@@ -338,7 +305,7 @@ input[type="submit"] {
   }
   }
 
-
+/****************************** flight *********************************/
   .body{
 	width: 100%;
 	height: 90vh;
@@ -428,10 +395,53 @@ input[type="submit"] {
     background-size: 100%;
     padding: 20px;
 }
-
+/******************************* home background*******************************/
 .homeb{
     background: url(photos/homebg1.png);
     background-size: cover;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
+   
+}
+.copyright h3{
+    font-weight: 100;
+}
+
+
+/****************Footer**********************/
+footer {
+    background: url(photos/footer.png)no-repeat;
+    
+    background-size: cover;
+    padding: 50px;
+  
+}
+.link-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+
+}
+.link-container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.link-container a{
+    margin-bottom: 10px;
+    color: black;
+
+}
+.link-container h2{
+    margin-bottom: 30px;
+}
+.travelog{
+    margin-bottom: 70px;
 }
 
 
